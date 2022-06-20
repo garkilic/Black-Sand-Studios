@@ -1,0 +1,63 @@
+body {
+	margin: 0;
+	line-height: 1.6;
+	letter-spacing: 1.2px;
+	background-image: linear-gradient(to right, #8360c3, #2ebf91);
+	color: white;
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+/* *Container */
+
+.container {
+	max-width: 100%;
+}
+
+/* * Navigation */
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+	margin: 2em;
+}
+
+.navbar--brand {
+	margin: 0;
+	font-size: 2em;
+}
+
+.navbar--items {
+	list-style: none;
+	display: flex;
+}
+
+.navbar--item {
+	margin: 0 2em;
+}
+
+.navbar--item a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* TODO: 1. Media queries 2. Dropdown Menu Functionality*/
+
+/* * Hero */
+
+.hero {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	gap: 1.9rem;
+}
+
+.hero--img {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.hero--text {
+	width: 50%;
+	text-align: center;
+}
