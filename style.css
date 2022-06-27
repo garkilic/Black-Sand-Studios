@@ -7,6 +7,20 @@ body {
 	font-family: "Source Sans Pro", sans-serif;
 }
 
+/* *General */
+
+.button {
+	padding: 1rem;
+	background-color: whitesmoke;
+	color: black;
+	text-decoration: none;
+	border-radius: 25px;
+}
+
+.box {
+	width: 500px;
+}
+
 /* *Container */
 
 .container {
@@ -52,12 +66,21 @@ body {
 	gap: 1.9rem;
 }
 
-.hero--img {
-	width: 600px;
-	margin: 0 auto;
+.hero--text {
+	text-align: center;
 }
 
-.hero--text {
-	width: 50%;
-	text-align: center;
+.hero--text h2,
+.hero--text p {
+	margin-bottom: 3em;
+}
+
+@media (max-width: 1000px) {
+	.hero {
+		gap: 0;
+	}
+
+	.hero--img {
+		display: none;
+	}
 }
