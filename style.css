@@ -24,7 +24,8 @@ body {
 /* *Container */
 
 .container {
-	max-width: 100%;
+	margin: 0 auto;
+	width: 500px;
 }
 
 /* * Navigation */
@@ -76,11 +77,24 @@ body {
 }
 
 @media (max-width: 1000px) {
-	.hero {
-		gap: 0;
-	}
-
 	.hero--img {
 		display: none;
 	}
+}
+
+/* *Explainer  */
+
+.explainer--main {
+	margin: 3em 0;
+	text-align: center;
+}
+
+.explainer--cards {
+	display: flex;
+	text-align: center;
+	padding: 2em;
+}
+
+.explainer--card {
+	margin: 0 2rem;
 }
