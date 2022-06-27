@@ -21,6 +21,10 @@ body {
 	width: 500px;
 }
 
+.icon {
+	width: 2em;
+}
+
 /* *Container */
 
 .container {
