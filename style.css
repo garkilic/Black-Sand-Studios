@@ -102,3 +102,32 @@ body {
 .explainer--card {
 	margin: 0 2rem;
 }
+
+/* * Details */
+
+.details--grid {
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+/* *Footer */
+
+.footer {
+	width: 100%;
+	text-align: center;
+}
+
+.footer li {
+	list-style-type: none;
+}
+
+.footer a {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+
+.footer--grid {
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
