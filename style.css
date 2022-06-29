@@ -2,8 +2,8 @@ body {
 	margin: 0;
 	line-height: 1.6;
 	letter-spacing: 1.2px;
-	background-image: linear-gradient(to right, #8360c3, #2ebf91);
-	color: white;
+
+	color: black;
 	font-family: "Source Sans Pro", sans-serif;
 }
 
@@ -65,6 +65,7 @@ body {
 /* * Hero */
 
 .hero {
+	background-repeat: no-repeat;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
