@@ -8,7 +8,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta charset="utf-8" />
 		<!-- * CSS -->
-		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="../style.css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -26,7 +26,7 @@
 		<nav class="navbar">
 			<h2 class="navbar--brand">Black Sand Studios</h2>
 			<ul class="navbar--items">
-				<li class="navbar--item"><a href="index.html">Home</a></li>
+				<li class="navbar--item"><a href="../index.html">Home</a></li>
 				<li class="navbar--item"><a href="About.html">About</a></li>
 				<li class="navbar--item"><a href="#">Product</a></li>
 				<li class="navbar--item"><a href="#">Services</a></li>
@@ -34,111 +34,22 @@
 			</ul>
 		</nav>
 
-		<!-- * Hero -->
+		<!-- * Form -->
 
-		<div class="hero">
-			<div class="hero--text">
-				<h2 class="box">Small Business Web Design + Development</h2>
-				<p class="box">
-					No page builders or WordPress - 100% hand-coded websites with superior
-					results starting at $200/mo
-				</p>
-				<a href="#" class="button">Get In Touch</a>
-			</div>
-
-			<div>
-				<img class="hero--img box" src="img/development.svg" alt="Macbook" />
-			</div>
-		</div>
-
-		<!-- * Explainer -->
-
-		<div class="container">
-			<div class="explainer--main">
-				<h2>What We Do</h2>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id
-					urna non justo sagittis vulputate quis eget est. Pellentesque id enim
-					at elit viverra imperdiet eget eu dui. Cras feugiat diam quis accumsan
-					iaculis. Nam aliquam condimentum nibh, ac egestas lectus tristique
-					eget.
-				</p>
-			</div>
-		</div>
-
-		<div class="explainer--cards">
-			<div class="explainer--card">
-				<p>Mobile-First Design</p>
-				<i class="fa-solid fa-mobile-screen-button fa-4x"></i>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id
-					urna non justo sagittis
-				</p>
-			</div>
-			<div class="explainer--card">
-				<p>Fully Responsive</p>
-				<i class="fa-solid fa-desktop fa-4x"></i>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id
-					urna non justo sagittis
-				</p>
-			</div>
-			<div class="explainer--card">
-				<p>Optimized For you</p>
-				<i class="fa-solid fa-gear fa-4x"></i>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id
-					urna non justo sagittis
-				</p>
-			</div>
-		</div>
-
-		<!-- *  Details -->
-
-		<div class="container">
-			<h2>$0 Down, $150 Per Month, No Minimum Contract</h2>
+		<form class="container" name="contact" method="POST" data-netlify="true">
 			<p>
-				$0 down for a standard 5 page small business website. If you need more
-				than that then we have to do custom pricing based on the scope of work,
-				number of additional pages, and time involved.
+				<label>Your Name: <input type="text" name="name" /></label>
 			</p>
 			<p>
-				You own your domain, content, listing, and profiles. Cancel anytime with
-				no fees or hassle.
+				<label>Your Email: <input type="email" name="email" /></label>
 			</p>
-			<div class="details--grid">
-				<div>
-					<h3>Grid Grid</h3>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-						id urna non justo sagittis vulputate quis eget est.
-					</p>
-				</div>
-				<div>
-					<h3>Grid Grid</h3>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-						id urna non justo sagittis vulputate quis eget est.
-					</p>
-				</div>
-
-				<div>
-					<h3>Grid Grid</h3>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-						id urna non justo sagittis vulputate quis eget est.
-					</p>
-				</div>
-
-				<div>
-					<h3>Grid Grid</h3>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-						id urna non justo sagittis vulputate quis eget est.
-					</p>
-				</div>
-			</div>
-		</div>
+			<p>
+				<label>Message: <textarea name="message"></textarea></label>
+			</p>
+			<p>
+				<button type="submit">Send</button>
+			</p>
+		</form>
 
 		<!-- * Price Comparison -->
 
@@ -156,27 +67,27 @@
 				</div>
 				<div class="divider"></div>
 				<div class="feature">
-					<img src="img/check.png" />
+					<img src="../img/check.png" />
 					Feature A
 				</div>
 				<div class="feature">
-					<img src="img/check.png" />
+					<img src="../img/check.png" />
 					Feature B
 				</div>
 				<div class="feature inactive">
-					<img src="img/remove.png" />
+					<img src="../img/check.png" />
 					Feature C
 				</div>
 				<div class="feature inactive">
-					<img src="img/remove.png" />
+					<img src="../img/remove.png" />
 					Feature D
 				</div>
 				<div class="feature inactive">
-					<img src="img/remove.png" />
+					<img src="../img/remove.png" />
 					Feature E
 				</div>
 				<div class="feature inactive">
-					<img src="img/remove.png" />
+					<img src="../img/remove.png" />
 					Feature F
 				</div>
 				<button class="cta">Start Today</button>
@@ -196,27 +107,27 @@
 				</div>
 				<div class="divider"></div>
 				<div class="feature">
-					<img src="img/check.png" />
+					<img src="../img/check.png" />
 					Feature A
 				</div>
 				<div class="feature">
-					<img src="img/check.png" />
+					<img src="../img/check.png" />
 					Feature B
 				</div>
 				<div class="feature">
-					<img src="img/check.png" />
+					<img src="../img/check.png" />
 					Feature C
 				</div>
 				<div class="feature">
-					<img src="img/check.png" />
+					<img src="../img/check.png" />
 					Feature D
 				</div>
 				<div class="feature inactive">
-					<img src="img/remove.png" />
+					<img src="../img/remove.png" />
 					Feature E
 				</div>
 				<div class="feature inactive">
-					<img src="img/remove.png" />
+					<img src="../img/remove.png" />
 					Feature F
 				</div>
 				<button class="cta">Start Today</button>
@@ -235,27 +146,27 @@
 				</div>
 				<div class="divider"></div>
 				<div class="feature">
-					<img src="img/check.png" />
+					<img src="../img/check.png" />
 					Feature A
 				</div>
 				<div class="feature">
-					<img src="img/check.png" />
+					<img src="../img/check.png" />
 					Feature B
 				</div>
 				<div class="feature">
-					<img src="img/check.png" />
+					<img src="../img/check.png" />
 					Feature C
 				</div>
 				<div class="feature">
-					<img src="img/check.png" />
+					<img src="../img/check.png" />
 					Feature D
 				</div>
 				<div class="feature">
-					<img src="img/check.png" />
+					<img src="../img/check.png" />
 					Feature E
 				</div>
 				<div class="feature">
-					<img src="img/check.png" />
+					<img src="../img/check.png" />
 					Feature F
 				</div>
 				<button class="cta">Start Today</button>
