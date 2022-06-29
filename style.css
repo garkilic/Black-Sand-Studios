@@ -202,12 +202,12 @@ body {
 	align-items: center;
 	margin: 0.5rem;
 }
-/* 
+
 .feature img {
 	height: 1.1em;
 	width: 1.1em;
 	margin-right: 0.5rem;
-} */
+}
 
 .feature.inactive {
 	color: #999;
