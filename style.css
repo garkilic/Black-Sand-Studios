@@ -319,3 +319,15 @@ form {
 	display: grid;
 	grid-template-columns: auto auto auto;
 }
+
+/* ! About Page */
+
+/* * About Me */
+
+.about {
+	text-align: center;
+}
+
+.personal-img {
+	border-radius: 50%;
+}
