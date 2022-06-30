@@ -38,13 +38,17 @@
 
 		<!-- * About Me -->
 
-		<div class="container">
+		<div class="container about">
 			<div>
 				<h2>About Me</h2>
 			</div>
-			<div>
-				<img src="../img/Griffin.jpg" alt="Very handsome guy named Griffin" />
-				<h2>Second Try Studios</h2>
+			<div class="about-content">
+				<img
+					class="personal-img"
+					src="../img/Griffin.jpg"
+					alt="Very handsome guy named Griffin"
+				/>
+				<h2>Black Sand Studios</h2>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
 					efficitur neque nulla, vitae gravida ex pellentesque in. Vivamus
@@ -61,7 +65,7 @@
 					ultrices iaculis turpis.
 				</p>
 			</div>
-			<div>
+			<div class="about-content">
 				<h2>Always Building. Always Improving.</h2>
 				<p>
 					Sed dapibus cursus sapien, dapibus dapibus dui aliquam eu. Donec
@@ -69,7 +73,43 @@
 					ultrices iaculis turpis.
 				</p>
 			</div>
+
+			<div class="about-content">
+				<h2>Accesible Product Management</h2>
+				<p>
+					Sed dapibus cursus sapien, dapibus dapibus dui aliquam eu. Donec
+					tristique commodo ultricies. Nunc dui nibh, ullamcorper eget massa at,
+					ultrices iaculis turpis.
+				</p>
+			</div>
+
+			<div class="about-content">
+				<h2>What Makes Us Different</h2>
+				<p>
+					Sed dapibus cursus sapien, dapibus dapibus dui aliquam eu. Donec
+					tristique commodo ultricies. Nunc dui nibh, ullamcorper eget massa at,
+					ultrices iaculis turpis.
+				</p>
+			</div>
 		</div>
+
+		<form name="contact" method="POST" data-netlify="true">
+			<div class="form-container">
+				<h2>Let's Chat!</h2>
+				<p>
+					<label>Your Name: <input type="text" name="name" /></label>
+				</p>
+				<p>
+					<label>Your Email: <input type="email" name="email" /></label>
+				</p>
+				<p>
+					<label>Message: <textarea name="message"></textarea></label>
+				</p>
+				<p>
+					<button type="submit">Send</button>
+				</p>
+			</div>
+		</form>
 
 		<!-- * Footer -->
 
