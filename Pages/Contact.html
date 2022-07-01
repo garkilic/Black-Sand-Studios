@@ -32,7 +32,7 @@
 				<li class="navbar--item"><a href="About.html">About</a></li>
 				<li class="navbar--item"><a href="#">Blog</a></li>
 				<li class="navbar--item"><a href="#">Services</a></li>
-				<li class="navbar--item"><a href="#">Contact</a></li>
+				<li class="navbar--item"><a href="/Pages/Contact.html">Contact</a></li>
 			</ul>
 		</nav>
 
@@ -40,143 +40,30 @@
 
 		<form name="contact" method="POST" data-netlify="true">
 			<div class="form-container">
-				<h2>Let's Chat!</h2>
+				<h2>Let's <span class="text-color">Chat!</span></h2>
 				<p>
-					<label>Your Name: <input type="text" name="name" /></label>
+					<input type="text" name="name" placeholder="Name" />
 				</p>
 				<p>
-					<label>Your Email: <input type="email" name="email" /></label>
+					<input type="text" name="business" placeholder="Business" />
 				</p>
 				<p>
-					<label>Message: <textarea name="message"></textarea></label>
+					<input type="email" name="email" placeholder="Email Address" />
 				</p>
 				<p>
-					<button type="submit">Send</button>
+					<input type="tel" name="telephone" placeholder="Telephone Number" />
+				</p>
+				<p>
+					<textarea
+						name="message"
+						placeholder="Type your message here"
+					></textarea>
+				</p>
+				<p>
+					<button class="submit-button" type="submit">Submit</button>
 				</p>
 			</div>
 		</form>
-
-		<!-- * Price Comparison -->
-
-		<section class="price-comparison">
-			<div class="price-column">
-				<div class="price-header">
-					<!-- Basic pricing -->
-
-					<div class="price">
-						<div class="dollar-sign">$</div>
-						10
-						<div class="per-month">/mo</div>
-					</div>
-					<div class="plan-name">Basic</div>
-				</div>
-				<div class="divider"></div>
-				<div class="feature">
-					<img src="../img/check.png" />
-					Feature A
-				</div>
-				<div class="feature">
-					<img src="../img/check.png" />
-					Feature B
-				</div>
-				<div class="feature inactive">
-					<img src="../img/check.png" />
-					Feature C
-				</div>
-				<div class="feature inactive">
-					<img src="../img/remove.png" />
-					Feature D
-				</div>
-				<div class="feature inactive">
-					<img src="../img/remove.png" />
-					Feature E
-				</div>
-				<div class="feature inactive">
-					<img src="../img/remove.png" />
-					Feature F
-				</div>
-				<button class="cta">Start Today</button>
-			</div>
-
-			<!-- Popular Pricing -->
-
-			<div class="price-column popular">
-				<div class="most-popular">Most Popular</div>
-				<div class="price-header">
-					<div class="price">
-						<div class="dollar-sign">$</div>
-						20
-						<div class="per-month">/mo</div>
-					</div>
-					<div class="plan-name">Professional</div>
-				</div>
-				<div class="divider"></div>
-				<div class="feature">
-					<img src="../img/check.png" />
-					Feature A
-				</div>
-				<div class="feature">
-					<img src="../img/check.png" />
-					Feature B
-				</div>
-				<div class="feature">
-					<img src="../img/check.png" />
-					Feature C
-				</div>
-				<div class="feature">
-					<img src="../img/check.png" />
-					Feature D
-				</div>
-				<div class="feature inactive">
-					<img src="../img/remove.png" />
-					Feature E
-				</div>
-				<div class="feature inactive">
-					<img src="../img/remove.png" />
-					Feature F
-				</div>
-				<button class="cta">Start Today</button>
-			</div>
-
-			<!-- Full Service Pricing -->
-
-			<div class="price-column">
-				<div class="price-header">
-					<div class="price">
-						<div class="dollar-sign">$</div>
-						50
-						<div class="per-month">/mo</div>
-					</div>
-					<div class="plan-name">Enterprise</div>
-				</div>
-				<div class="divider"></div>
-				<div class="feature">
-					<img src="../img/check.png" />
-					Feature A
-				</div>
-				<div class="feature">
-					<img src="../img/check.png" />
-					Feature B
-				</div>
-				<div class="feature">
-					<img src="../img/check.png" />
-					Feature C
-				</div>
-				<div class="feature">
-					<img src="../img/check.png" />
-					Feature D
-				</div>
-				<div class="feature">
-					<img src="../img/check.png" />
-					Feature E
-				</div>
-				<div class="feature">
-					<img src="../img/check.png" />
-					Feature F
-				</div>
-				<button class="cta">Start Today</button>
-			</div>
-		</section>
 
 		<!-- * Footer -->
 

@@ -28,11 +28,11 @@
 		<nav class="navbar">
 			<h2 class="navbar--brand">Black Sand Studios</h2>
 			<ul class="navbar--items">
-				<li class="navbar--item"><a href="index.html">Home</a></li>
-				<li class="navbar--item"><a href="About.html">About</a></li>
+				<li class="navbar--item"><a href="../index.html">Home</a></li>
+				<li class="navbar--item"><a href="../Pages/About.html">About</a></li>
 				<li class="navbar--item"><a href="#">Product</a></li>
 				<li class="navbar--item"><a href="#">Services</a></li>
-				<li class="navbar--item"><a href="#">Contact</a></li>
+				<li class="navbar--item"><a href="../Pages/Contact.html">Contact</a></li>
 			</ul>
 		</nav>
 
@@ -40,7 +40,7 @@
 
 		<div class="container about">
 			<div>
-				<h2>About Me</h2>
+				<h2>About Us</h2>
 			</div>
 			<div class="about-content">
 				<img
@@ -48,65 +48,90 @@
 					src="../img/Griffin.jpg"
 					alt="Very handsome guy named Griffin"
 				/>
-				<h2>Black Sand Studios</h2>
+				<h2>Black Sand Studios: Building For You</h2>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-					efficitur neque nulla, vitae gravida ex pellentesque in. Vivamus
-					congue nibh eros.
+					Hi. My name is Griffin, I am the owner of Black Sand Studios. Web
+					development has always been a passion of mine, mostly for building my
+					own products. However, I found that small business could benefit from
+					having a clean custom site that could be easily maintained.
 				</p>
 				<p>
-					Sed dapibus cursus sapien, dapibus dapibus dui aliquam eu. Donec
-					tristique commodo ultricies. Nunc dui nibh, ullamcorper eget massa at,
-					ultrices iaculis turpis.
+					Too often, custom websites are too expensive, too clunky, or not
+					responsive. This can lead to a bad first impression and ultimately,
+					make you lose customers who are used to a clean and simple web
+					experience.
 				</p>
 				<p>
-					Sed dapibus cursus sapien, dapibus dapibus dui aliquam eu. Donec
-					tristique commodo ultricies. Nunc dui nibh, ullamcorper eget massa at,
-					ultrices iaculis turpis.
+					The point of our services is to avoid the headache that comes with
+					finding someone to build (or rebuild your site). We are local, quick
+					to respond, and provide services for a small monthly fee.
 				</p>
 			</div>
 			<div class="about-content">
 				<h2>Always Building. Always Improving.</h2>
 				<p>
-					Sed dapibus cursus sapien, dapibus dapibus dui aliquam eu. Donec
-					tristique commodo ultricies. Nunc dui nibh, ullamcorper eget massa at,
-					ultrices iaculis turpis.
+					As a developer and product manager with years of experience in the
+					tech industry I know what it takes to create an awesome digital
+					product. However, I see a lot of companies falling into the same trap.
+					I want to help avoid that which is why I created this studio. Not only
+					do I want to help you create a fantastic online presence, I want to
+					help you build the product that will get you to the next level.
 				</p>
 			</div>
 
 			<div class="about-content">
 				<h2>Accesible Product Management</h2>
 				<p>
-					Sed dapibus cursus sapien, dapibus dapibus dui aliquam eu. Donec
-					tristique commodo ultricies. Nunc dui nibh, ullamcorper eget massa at,
-					ultrices iaculis turpis.
+					Product management is a relatively new field within the technology
+					space. What a great product manager does is they help you figure out
+					what to build and how to build it. Now, most product managers charge
+					thousands of dollars a month for their services, but through Black
+					Sand Studios we want to provide our product services (along with
+					development resources) at a fraction of the cost.
 				</p>
 			</div>
 
 			<div class="about-content">
 				<h2>What Makes Us Different</h2>
 				<p>
-					Sed dapibus cursus sapien, dapibus dapibus dui aliquam eu. Donec
-					tristique commodo ultricies. Nunc dui nibh, ullamcorper eget massa at,
-					ultrices iaculis turpis.
+					Instead of spending hours, days, weeks, months, or even years aquiring the capital, skills, or employees, start building now with our services.
+
+					<ul class="about-values">
+						<li>Custom and responsive site to put you above the local competition.</li>
+						<li>24/7 support, you can consider me your personal developer who can make unlimited edits and changes to your custom site.</li>
+						<li>Content creation available to your team, no extra employees required.</li>
+						<li>Depending on your needs we can build web apps, native apps, to bring your products to life.</li>
+						<li>Product management capabilities to help you determine if you are on the right path and to make sure your money is not going to waste.</li>
+					</ul>
 				</p>
 			</div>
 		</div>
 
+		<!-- * Contact Form -->
+
 		<form name="contact" method="POST" data-netlify="true">
 			<div class="form-container">
-				<h2>Let's Chat!</h2>
+				<h2>Let's <span class="text-color">Chat!</span></h2>
 				<p>
-					<label>Your Name: <input type="text" name="name" /></label>
+					<input type="text" name="name" placeholder="Name" />
 				</p>
 				<p>
-					<label>Your Email: <input type="email" name="email" /></label>
+					<input type="text" name="business" placeholder="Business" />
 				</p>
 				<p>
-					<label>Message: <textarea name="message"></textarea></label>
+					<input type="email" name="email" placeholder="Email Address" />
 				</p>
 				<p>
-					<button type="submit">Send</button>
+					<input type="tel" name="telephone" placeholder="Telephone Number" />
+				</p>
+				<p>
+					<textarea
+						name="message"
+						placeholder="Type your message here"
+					></textarea>
+				</p>
+				<p>
+					<button class="submit-button" type="submit">Submit</button>
 				</p>
 			</div>
 		</form>
@@ -116,16 +141,16 @@
 		<div class="footer">
 			<div class="footer--grid">
 				<div>
-					<h2>Second Try Studios</h2>
-					<hr />
+					<h2>Black Sand Studios</h2>
+					<div class="divider-footer"></div>
 					<p>
-						<a href="#">secondtrystudios@gmail.com</a>
+						<a href="#">contact@blacksandstudios.com</a>
 					</p>
 				</div>
 
 				<div>
 					<h2>Navigation</h2>
-					<hr />
+					<div class="divider-footer"></div>
 
 					<p>Home</p>
 					<p>About</p>
@@ -136,11 +161,12 @@
 
 				<div>
 					<h2>Services</h2>
-					<hr />
+					<div class="divider-footer"></div>
 					<p>Web Design</p>
 					<p>Web Maintenance</p>
 					<p>SEO Services</p>
 					<p>Content Creation</p>
+					<p>Product Management</p>
 				</div>
 			</div>
 		</div>

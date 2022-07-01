@@ -16,6 +16,20 @@ body {
 	border-radius: 25px;
 }
 
+.submit-button {
+	padding: 0.6rem;
+	font-size: 0.8rem;
+	width: 100px;
+	background-color: blue;
+	color: white;
+	font-family: inherit;
+	border-radius: 5px;
+	border: solid rgba(149, 157, 165, 0.6) 1px;
+}
+.submit-button:hover {
+	cursor: pointer;
+}
+
 .text-color {
 	color: blue;
 }
@@ -278,11 +292,34 @@ form {
 	display: flex;
 	flex-direction: column;
 	align-items: left;
-	background-color: #999;
+	border: solid rgba(149, 157, 165, 0.2) 1px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 	border-radius: 25px;
 	margin: 0 auto;
-	padding: 3em 0;
+	padding-bottom: 150px;
+	width: 500px;
+	height: 400px;
+	font: inherit;
+}
+
+input {
+	border-radius: 5px;
+	width: 200px;
+	height: 2rem;
+	border: solid rgba(149, 157, 165, 0.6) 1px;
+	font-family: inherit;
+}
+input:placeholder-shown,
+textarea:placeholder-shown {
+	padding: 0 0.5rem;
+}
+
+textarea {
+	border: solid rgba(149, 157, 165, 0.6) 1px;
+	border-radius: 5px;
+	height: 100px;
 	width: 400px;
+	font-family: inherit;
 }
 
 .form-container {
@@ -330,4 +367,13 @@ form {
 
 .personal-img {
 	border-radius: 50%;
+}
+
+.about-values {
+	margin: 2em 0;
+}
+
+.about-values li {
+	margin: 1em 0;
+	text-align: left;
 }
