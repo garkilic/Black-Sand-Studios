@@ -46,6 +46,12 @@ body {
 	width: 900px;
 }
 
+@media (max-width: 1000px) {
+	.container {
+		width: 100%;
+	}
+}
+
 /* * Navigation */
 
 .navbar {
@@ -162,6 +168,14 @@ body {
 	margin: 3em;
 }
 
+@media (max-width: 1000px) {
+	.price-comparison {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
 .price-column {
 	color: black;
 	background-color: white;
@@ -171,6 +185,7 @@ body {
 	flex-basis: 0;
 	max-width: 275px;
 	border-radius: 8px;
+	margin: 4em;
 }
 
 .price-column.popular {
