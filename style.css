@@ -165,7 +165,7 @@ body {
 	justify-content: center;
 	align-items: stretch;
 	width: 100%;
-	margin: 3em;
+	margin: 1rem;
 }
 
 @media (max-width: 1000px) {
@@ -173,6 +173,7 @@ body {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		margin: 4em;
 	}
 }
 
@@ -185,7 +186,6 @@ body {
 	flex-basis: 0;
 	max-width: 275px;
 	border-radius: 8px;
-	margin: 4em;
 }
 
 .price-column.popular {
