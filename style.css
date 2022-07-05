@@ -179,7 +179,9 @@ body {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		margin: 4em;
+	}
+	.price-column {
+		margin: 3em;
 	}
 }
 
@@ -350,32 +352,24 @@ textarea {
 
 /* *Footer */
 
+.footer-section {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 2em;
+}
+
 .footer {
-	margin: 3em 0;
-	width: 100%;
-	text-align: center;
+	display: flex;
 }
 
-.divider-footer {
-	height: 1px;
-	width: 80%;
-	background-color: rgba(0, 0, 0, 0.2);
-	margin: 2rem;
-}
-
-.footer li {
-	list-style-type: none;
-}
-
-.footer a {
-	text-decoration: none;
-	color: black;
-	text-align: center;
-}
-
-.footer--grid {
-	display: grid;
-	grid-template-columns: auto auto auto;
+@media (max-width: 1000px) {
+	.footer {
+		text-align: center;
+		margin: 1em 0;
+		display: flex;
+		flex-direction: column;
+	}
 }
 
 /* ! About Page */
