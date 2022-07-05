@@ -30,6 +30,12 @@ body {
 	cursor: pointer;
 }
 
+.section-title {
+	text-align: center;
+	text-decoration: underline;
+	margin: 2em;
+}
+
 .text-color {
 	color: blue;
 }
@@ -418,4 +424,19 @@ textarea {
 
 .services-bottom {
 	margin: 5em 0;
+}
+
+/* ! Blog Post */
+
+.blog-post {
+	display: flex;
+}
+
+.blog-link {
+	text-decoration: none;
+}
+
+.blog-img {
+	width: 200px;
+	margin: 0 2em;
 }
