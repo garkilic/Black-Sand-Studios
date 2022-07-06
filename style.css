@@ -32,6 +32,7 @@ body {
 	color: white;
 	font-family: inherit;
 	border-radius: 5px;
+	margin: 1rem 0;
 	border: solid rgba(149, 157, 165, 0.6) 1px;
 }
 .submit-button:hover {
@@ -384,10 +385,10 @@ form {
 	border: solid rgba(149, 157, 165, 0.2) 1px;
 	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 	border-radius: 25px;
-	margin: 0 auto;
+	margin: 1rem auto;
 	padding-bottom: 150px;
 	width: 500px;
-	height: 400px;
+	height: 500px;
 	font: inherit;
 }
 
@@ -397,10 +398,11 @@ input {
 	height: 2rem;
 	border: solid rgba(149, 157, 165, 0.6) 1px;
 	font-family: inherit;
+	margin: 0.5rem 0;
 }
 input:placeholder-shown,
 textarea:placeholder-shown {
-	padding: 0 0.5rem;
+	padding: 0.5rem;
 }
 
 textarea {
@@ -409,6 +411,7 @@ textarea {
 	height: 100px;
 	width: 400px;
 	font-family: inherit;
+	margin: 0.5rem 0;
 }
 
 .form-container {
@@ -443,8 +446,12 @@ textarea {
 	margin: 2em;
 }
 
-.footer {
-	display: flex;
+.footer p {
+	margin: 1rem 0;
+}
+
+.footer-links {
+	color: blue;
 }
 
 @media (max-width: 1000px) {
@@ -493,6 +500,10 @@ textarea {
 .services-section {
 	display: flex;
 	text-align: center;
+}
+
+.services-section p {
+	margin-bottom: 1em;
 }
 
 .services-button {
