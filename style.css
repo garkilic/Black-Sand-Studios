@@ -439,9 +439,13 @@ textarea {
 
 /* *Footer */
 
-.footer-section {
+.footer {
 	display: flex;
-	flex-direction: column;
+	align-self: center;
+	justify-content: space-evenly;
+}
+
+.footer-section {
 	text-align: center;
 	margin: 2em;
 }
