@@ -2,7 +2,7 @@
 	padding: 0;
 	margin: 0;
 	text-decoration: none;
-	list-style: none;
+
 	box-sizing: border-box;
 }
 
@@ -38,10 +38,16 @@ body {
 	cursor: pointer;
 }
 
+@media (max-width: 1000px) {
+	.submit-button {
+	}
+}
+
 .section-title {
 	text-align: center;
 	text-decoration: underline;
-	margin: 2em;
+	margin: 2em 0 0 0;
+	padding: 0;
 }
 
 .text-color {
@@ -89,6 +95,7 @@ label.logo {
 }
 
 .navbar-item {
+	list-style: none;
 	display: inline-block;
 	line-height: 80px;
 	font-weight: bold;
@@ -141,8 +148,8 @@ label.logo {
 	.navbar-link {
 		font-size: 20px;
 	}
-	a:hover,
-	a.active {
+	.navbar-link:hover,
+	.navbar-link.active {
 		background: none;
 	}
 	#check:checked ~ ul {
@@ -409,6 +416,24 @@ textarea {
 	width: 400px;
 }
 
+@media (max-width: 1000px) {
+	input,
+	textarea,
+	form h2,
+	.submit-button {
+		margin: 1rem;
+	}
+	input {
+		width: 300px;
+		height: 3rem;
+	}
+
+	form {
+		height: 650px;
+		width: 500px;
+	}
+}
+
 /* *Footer */
 
 .footer-section {
@@ -441,6 +466,11 @@ textarea {
 
 .personal-img {
 	border-radius: 50%;
+	margin-bottom: 2em;
+}
+
+.about-content {
+	margin: 1em 0;
 }
 
 .about-values {
@@ -450,6 +480,12 @@ textarea {
 .about-values li {
 	margin: 1em 0;
 	text-align: left;
+}
+
+@media (max-width: 1000px) {
+	.about-values li {
+		text-align: center;
+	}
 }
 
 /* ! Services Page */
@@ -475,14 +511,29 @@ textarea {
 	width: 360px;
 }
 
-.services-bottom {
-	margin: 5em 0;
+@media (max-width: 1000px) {
+	.services-section {
+		display: initial;
+		margin: 2em 0;
+	}
+	.services-section p,
+	.services-section h2 {
+		margin: 1em 0;
+	}
+	.services-img {
+		display: none;
+	}
+	.services-button {
+		margin: 3em;
+	}
 }
 
 /* ! Blog Post */
 
 .blog-post {
 	display: flex;
+	align-items: center;
+	margin: 2em 0;
 }
 
 .blog-link {
