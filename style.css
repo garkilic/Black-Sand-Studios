@@ -2,7 +2,7 @@
 	padding: 0;
 	margin: 0;
 	text-decoration: none;
-	list-style: none;
+
 	box-sizing: border-box;
 }
 
@@ -41,7 +41,7 @@ body {
 .section-title {
 	text-align: center;
 	text-decoration: underline;
-	margin: 2em;
+	margin: 2em 0 0 0;
 }
 
 .text-color {
@@ -89,6 +89,7 @@ label.logo {
 }
 
 .navbar-item {
+	list-style: none;
 	display: inline-block;
 	line-height: 80px;
 	font-weight: bold;
@@ -441,6 +442,11 @@ textarea {
 
 .personal-img {
 	border-radius: 50%;
+	margin: 2em 0;
+}
+
+.about-content {
+	margin: 1em 0;
 }
 
 .about-values {
