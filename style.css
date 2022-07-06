@@ -38,6 +38,11 @@ body {
 	cursor: pointer;
 }
 
+@media (max-width: 1000px) {
+	.submit-button {
+	}
+}
+
 .section-title {
 	text-align: center;
 	text-decoration: underline;
@@ -143,8 +148,8 @@ label.logo {
 	.navbar-link {
 		font-size: 20px;
 	}
-	a:hover,
-	a.active {
+	.navbar-link:hover,
+	.navbar-link.active {
 		background: none;
 	}
 	#check:checked ~ ul {
@@ -411,6 +416,24 @@ textarea {
 	width: 400px;
 }
 
+@media (max-width: 1000px) {
+	input,
+	textarea,
+	form h2,
+	.submit-button {
+		margin: 1rem;
+	}
+	input {
+		width: 300px;
+		height: 3rem;
+	}
+
+	form {
+		height: 650px;
+		width: 500px;
+	}
+}
+
 /* *Footer */
 
 .footer-section {
@@ -443,7 +466,7 @@ textarea {
 
 .personal-img {
 	border-radius: 50%;
-	margin: 2em 0;
+	margin-bottom: 2em;
 }
 
 .about-content {
@@ -488,14 +511,29 @@ textarea {
 	width: 360px;
 }
 
-.services-bottom {
-	margin: 5em 0;
+@media (max-width: 1000px) {
+	.services-section {
+		display: initial;
+		margin: 2em 0;
+	}
+	.services-section p,
+	.services-section h2 {
+		margin: 1em 0;
+	}
+	.services-img {
+		display: none;
+	}
+	.services-button {
+		margin: 3em;
+	}
 }
 
 /* ! Blog Post */
 
 .blog-post {
 	display: flex;
+	align-items: center;
+	margin: 2em 0;
 }
 
 .blog-link {
