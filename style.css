@@ -42,6 +42,7 @@ body {
 	text-align: center;
 	text-decoration: underline;
 	margin: 2em 0 0 0;
+	padding: 0;
 }
 
 .text-color {
@@ -456,6 +457,12 @@ textarea {
 .about-values li {
 	margin: 1em 0;
 	text-align: left;
+}
+
+@media (max-width: 1000px) {
+	.about-values li {
+		text-align: center;
+	}
 }
 
 /* ! Services Page */
