@@ -46,7 +46,7 @@ body {
 
 .section-title {
 	text-align: center;
-	text-decoration: underline;
+	font-size: 2rem;
 	margin: 2em 0 0 0;
 	padding: 0;
 }
@@ -88,6 +88,10 @@ label.logo {
 	line-height: 80px;
 	padding: 0 3em;
 	font-weight: bold;
+}
+
+label.logo a {
+	color: white;
 }
 
 .navbar-items {
@@ -225,6 +229,11 @@ label.logo {
 	align-items: center;
 }
 
+.details h2,
+.details p {
+	margin: 1rem;
+}
+
 .details--grid {
 	display: grid;
 	align-items: center;
@@ -295,6 +304,10 @@ label.logo {
 .price {
 	font-size: 3.5rem;
 	display: flex;
+}
+
+.starting-text {
+	font-size: 0.8rem;
 }
 
 .dollar-sign {
@@ -548,14 +561,34 @@ textarea {
 .blog-post {
 	display: flex;
 	align-items: center;
-	margin: 2em 0;
+	margin: 3em 0;
+}
+
+.blog-container {
+	margin: 3em 0;
+	margin: 2em;
+}
+
+.blog-title {
+	font-size: 2em;
+}
+
+.blog-author {
+	font-weight: 400;
+}
+
+.blog-post p,
+.blog-container p {
+	margin: 1rem 0;
 }
 
 .blog-link {
 	text-decoration: none;
+	color: blue;
 }
 
 .blog-img {
+	align-content: center;
 	width: 200px;
 	margin: 0 2em;
 }

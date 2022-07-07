@@ -11,27 +11,64 @@
 			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&display=swap"
 			rel="stylesheet"
 		/>
+		<script
+			src="https://kit.fontawesome.com/93f480a0e9.js"
+			crossorigin="anonymous"
+		></script>
 	</head>
 	<body>
-		<!-- * Navigation -->
+	<!-- * Navigation -->
 
-		<nav class="navbar">
-			<h2 class="navbar--brand">Black Sand Studios</h2>
-			<ul class="navbar--items">
-				<li class="navbar--item"><a href="../index.html">Home</a></li>
-				<li class="navbar--item"><a href="../Pages/About.html">About</a></li>
-				<li class="navbar--item"><a href="../Pages/Blog.html">Blog</a></li>
-				<li class="navbar--item">
-					<a href="../Pages/Services.html">Services</a>
-				</li>
-				<li class="navbar--item">
-					<a href="../Pages/Contact.html">Contact</a>
-				</li>
-			</ul>
-		</nav>
-		<!-- * Blog Post: Accessible Product Management -->
+	<nav>
+		<input type="checkbox" id="check" />
+		<label for="check" class="checkbtn">
+			<i class="fas fa-bars"></i>
+		</label>
+		<label class="logo"><a href="../index.html">Black Sand Studios</a></label>
+		<ul class="navbar-items">
+			<li class="navbar-item">
+				<a class="navbar-link" href="../index.html">Home</a>
+			</li>
+			<li class="navbar-item">
+				<a class="navbar-link" href="../Pages/About.html">About</a>
+			</li>
+			<li class="navbar-item">
+				<a class="navbar-link" href="../Pages/Blog.html">Blog</a>
+			</li>
+			<li class="navbar-item">
+				<a class="navbar-link" href="../Pages/Services.html">Services</a>
+			</li>
+			<li class="navbar-item">
+				<a class="navbar-link" href="../Pages/Contact.html">Contact</a>
+			</li>
+		</ul>
 
-		<!-- What is product management -->
+<div class="blog-container">
+	<h1 class="blog-title">Accessible Product Management</h1>
+	<h3 class="blog-author">Written By: Griffin Arkilic</h3>
+	<p>When it comes to product management, it's easy to get confused about what it means. Product management isn't the first thing we think of when building a new product, but the sooner you get a product manager on your product, the better.</p>
+	<p>But before we get into what a product manager can do, we should start with what a product manager is.</p>
+	<p>Let's look at an example to explain what a product looks like with and without a product manager.</p>
+	<hr>
+	<p><span class="text-color">Example A (No Product Manager):</span> You have an idea for a really cool digital product and a little bit of money. You have a vague idea of an app you want to build and the features that it will have. Maybe you want chat capabilities, a community, and a way to log in. </p>
+	<p>Immediately, you get a development team together and you start building. Having no previous technology experience yourself (which is totally fine by the way) you dive headfirst into directing a team of engineers into what you want to build. Your engineers begin to ask you how you want the sign up, login, chat, and community functionality to work. You draw simple wireframes or you point to how other apps function as a reference point.</p>
+	<p>Eventually, your team finishes the MVP of your product and get it in front of users. They like what they see but they have questions and feature requests. Alright, that's fine! You then start to build the exact features they are asking for.</p>
+	<p>This will keep going and going until you find that you have built everything that was asked for by your users and they still aren't using your product. You have thousands of dollars building this product and for some reason the features you are building aren't attracting users. What went wrong?</p>
+	<hr>
+	<p><span class="text-color">Example B (Product Manager):</span> You have an idea for a digital product, a bit of money, and someone on your team who is a product manager. You have an idea of what you think people might like, but before you start building, the product manager and yourself go out and actually talk to potential users about problems they have and possible solutions. You are now discovering whether or not what you wanted to build is actually solving a problem.</p>
+	<p>By doing this work with your product manager you are making sure that the money you are planning to invest is something people would actually be interested in.</p>
+	<p>Now you can go into development with an idea of what to build using real feedback.</p>
+	<p>When development begins your product manager can help specify what you need to build to execute on your features. Building a digital product with engineers requires design/product knowledge and to get the best results you will need to be extremely precise with your requests. This execution along with agile methodologies and user stories can shave months off of getting your product into users hands.</p>
+	<p>When you release your MVP you can get feedback from users in an organized fashion (thanks to your product manager) and they will work with your users to figure out what exactly needs to be built next.</p>
+<hr>
+	<p>Obviously, this is just an example. The real world is unpredictable and there's never a gurantee you will get your product right, product manager or no. But if you are investing time and money into your product wouldn't you want to increase your chances of success?</p>
+<hr>
+<p>I will admit, this post is a bit self serving. I want to work with you and some of the services I offer are product management, but if you have gotten this far in this post, I hope you have taken away something. Product management is a field I love and I think a lot of organizations could benefit from having a product manager at the beginning of their journey instead of when shit hits the fan. If you want to be prepared, shoot us an email.</p>
+
+
+</div>
+
+<!-- What is product management -->
 
 		<!-- What I have done as a product manager -->
 
@@ -39,41 +76,34 @@
 
 		<!-- What happens when you don't have a product manager -->
 
+		
+
 		<!-- * Footer -->
 
-		<div class="footer">
-			<div class="footer--grid">
+		<div class="footer container">
+			<div class="footer-section">
+				<h2>Black Sand Studios</h2>
+				<p>
+					<a href="#">contact@blacksandstudios.com</a>
+				</p>
+			</div>
+
+			<div class="footer-section">
+				<h2>Navigation</h2>
+
 				<div>
-					<h2>Black Sand Studios</h2>
-					<div class="divider-footer"></div>
-					<p>
-						<a href="#">contact@blacksandstudios.com</a>
-					</p>
+					<p><a class="footer-links" href="../index.html">Home</a></p>
+					<p><a class="footer-links" href="../Pages/About.html">About</a></p>
+					<p><a class="footer-links" href="../Pages/Blog.html">Blog</a></p>
+					<p><a class="footer-links" href="../Pages/Services.html">Services</a></p>
+					<p><a class="footer-links" href="../Pages/Contact.html">Contact</a></p>
+					
 				</div>
-
-				<div>
-					<h2>Navigation</h2>
-					<div class="divider-footer"></div>
-
-					<p>Home</p>
-					<p>About</p>
-					<p>Services</p>
-					<p>Portfolio</p>
-					<p>Contact</p>
-				</div>
-
-				<div>
-					<h2>Services</h2>
-					<div class="divider-footer"></div>
-					<p>Web Design</p>
-					<p>Web Maintenance</p>
-					<p>SEO Services</p>
-					<p>Content Creation</p>
-					<p>Product Management</p>
 				</div>
 			</div>
-		</div>
 
-		<script src="" async defer></script>
 	</body>
 </html>
+
+
+
