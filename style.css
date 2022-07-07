@@ -63,7 +63,8 @@ body {
 .container {
 	margin: 0 auto;
 	padding: 3em 0;
-	width: 900px;
+	width: 100%;
+	max-width: 900px;
 }
 
 @media (max-width: 1000px) {
@@ -98,7 +99,7 @@ label.logo a {
 
 .navbar-items {
 	float: right;
-	margin-right: 20px;
+	/* margin-right: 20px; */
 }
 
 .navbar-item {
