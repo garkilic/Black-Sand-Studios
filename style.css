@@ -208,6 +208,11 @@ label.logo a {
 		gap: 0;
 	}
 
+	.hero--text h2 {
+		font-size: 2em;
+		width: 500px;
+	}
+
 	.hero--img {
 		display: none;
 	}
