@@ -11,6 +11,7 @@ body {
 	letter-spacing: 1.2px;
 	color: black;
 	font-family: "Poppins", sans-serif;
+	overflow: hidden;
 }
 
 @media (max-width: 1000px) {
