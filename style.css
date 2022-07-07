@@ -4,6 +4,7 @@
 	text-decoration: none;
 	box-sizing: border-box;
 	font-family: "Poppins", sans-serif;
+	left: 0;
 }
 /* 
 body {
@@ -73,6 +74,9 @@ body {
 	.section-title {
 		padding: 4em 0 0 0;
 		margin: 0;
+	}
+	.box {
+		width: 300px;
 	}
 }
 
