@@ -225,6 +225,8 @@ label.logo a {
 
 	.hero--img {
 		display: none;
+		padding: 0;
+		margin: 0;
 	}
 }
 
