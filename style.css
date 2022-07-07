@@ -2,8 +2,7 @@
 	padding: 0;
 	margin: 0;
 	text-decoration: none;
-
-	box-sizing: border-box;
+	/* box-sizing: border-box; */
 }
 
 body {
@@ -128,10 +127,13 @@ label.logo a {
 	display: none;
 }
 
-@media (max-width: 1101px) {
+@media (max-width: 800px) {
 	label.logo {
 		display: none;
 	}
+}
+
+@media (max-width: 1101px) {
 	.checkbtn {
 		display: block;
 	}
@@ -189,6 +191,7 @@ label.logo a {
 @media (max-width: 1000px) {
 	.hero {
 		flex-direction: column;
+		gap: 0;
 	}
 
 	.hero--img {
@@ -218,6 +221,19 @@ label.logo a {
 
 .explainer-title {
 	font-weight: 700;
+}
+
+@media (max-width: 1000px) {
+	.cards {
+		display: flex;
+		align-items: center;
+
+		flex-direction: column;
+	}
+	.card {
+		margin: 1em 0;
+		width: 50%;
+	}
 }
 
 /* * Details */
