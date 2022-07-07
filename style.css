@@ -6,24 +6,6 @@
 	font-family: "Poppins", sans-serif;
 	left: 0;
 }
-/* 
-body {
-	margin: 0;
-	line-height: 1.6;
-	letter-spacing: 1.2px;
-	color: black;
-	font-family: "Poppins", sans-serif;
-	overflow: hidden;
-} */
-
-@media (max-width: 1000px) {
-	body {
-		/* display: flex;
-		flex-direction: column;
-		align-items: center;
-		margin: 0; */
-	}
-}
 
 /* *General */
 
@@ -48,11 +30,6 @@ body {
 }
 .submit-button:hover {
 	cursor: pointer;
-}
-
-@media (max-width: 1000px) {
-	.submit-button {
-	}
 }
 
 .section-title {
@@ -162,6 +139,7 @@ label.logo a {
 	.nav {
 		margin: 0;
 		padding: 0;
+		width: 100%;
 	}
 	.checkbtn {
 		display: block;
@@ -640,9 +618,16 @@ textarea {
 	margin: 1rem 0;
 }
 
+@media (max-width: 1000px) {
+	.blog-post {
+		flex-direction: column;
+	}
+}
+
 .blog-link {
 	text-decoration: none;
 	color: blue;
+	text-decoration: underline;
 }
 
 .blog-img {
