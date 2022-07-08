@@ -6,6 +6,12 @@
 	font-family: "Poppins", sans-serif;
 	left: 0;
 }
+/* 
+@media (max-width: 1000px) {
+	body {
+		padding: 0 2em;
+	}
+} */
 
 /* *General */
 
@@ -197,7 +203,7 @@ label.logo a {
 @media (max-width: 1000px) {
 	.hero {
 		margin: 0;
-		padding: 0;
+		padding: 0 2em;
 		flex-direction: column;
 		gap: 0;
 	}
@@ -468,21 +474,26 @@ textarea {
 	width: 400px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 700px) {
 	input,
 	textarea,
 	form h2,
 	.submit-button {
 		margin: 1rem;
 	}
+
 	input {
-		width: 300px;
+		width: 200px;
 		height: 3rem;
+	}
+
+	textarea {
+		width: 200px;
 	}
 
 	form {
 		height: 650px;
-		width: 500px;
+		width: 300px;
 	}
 }
 
@@ -543,6 +554,9 @@ textarea {
 }
 
 @media (max-width: 1000px) {
+	.about {
+		padding: 0 2em;
+	}
 	.about-values li {
 		text-align: center;
 	}
@@ -582,7 +596,7 @@ textarea {
 	}
 	.services-section p,
 	.services-section h2 {
-		margin: 1em 0;
+		margin: 1em;
 	}
 	.services-img {
 		display: none;
@@ -616,9 +630,13 @@ textarea {
 @media (max-width: 1000px) {
 	.blog-post {
 		flex-direction: column;
+		padding: 0 2rem;
 	}
 	.blog-information {
 		padding: 8rem 0 0 0;
+	}
+	.blog-container {
+		padding: 0 2rem;
 	}
 }
 
