@@ -1,13 +1,13 @@
-:root {
+/* For Future Implementation */
+
+/* :root {
 	--light-background: white;
 	--light-text: black;
 	--light-button: blue;
 	--dark-background: #121212;
 	--dark-text: white;
 	--dark-button: #3700b3;
-}
-
-/* For Future Implementation */
+} */
 
 /* @media (prefers-color-scheme: light) {
 	:root {
@@ -39,7 +39,7 @@
 /* *General */
 
 .button {
-	padding: 1rem;
+	padding: 1em;
 	background-color: blue;
 	color: white;
 	text-decoration: none;
@@ -170,31 +170,36 @@ label.logo a {
 		padding: 0;
 		width: 100%;
 	}
+
 	.checkbtn {
 		display: block;
 	}
+
 	.navbar-items {
 		position: fixed;
 		width: 100%;
 		height: 100vh;
 		background: #2c3e50;
-		/* top: 80px; */
 		left: -100%;
 		transition: all 0.5s;
 		text-align: center;
 	}
+
 	.navbar-item {
 		display: block;
 		margin: 50px;
 		line-height: 30px;
 	}
+
 	.navbar-link {
 		font-size: 20px;
 	}
+
 	.navbar-link:hover,
 	.navbar-link.active {
 		background: none;
 	}
+
 	#check:checked ~ ul {
 		left: 0;
 	}
@@ -211,15 +216,14 @@ label.logo a {
 	gap: 5em;
 }
 
-.hero--text {
+.hero-text {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-
 	text-align: center;
 }
 
-.hero--text p {
+.hero-text p {
 	margin-bottom: 3em;
 }
 
@@ -231,22 +235,20 @@ label.logo a {
 		gap: 0;
 	}
 
-	.hero--text h2 {
+	.hero-text h2 {
 		margin: 0;
 		padding: 0;
 		font-size: 2em;
 	}
 
-	.hero--img {
+	.hero-img {
 		display: none;
-		padding: 0;
-		margin: 0;
 	}
 }
 
 /* *Explainer  */
 
-.explainer--main {
+.explainer-main {
 	text-align: center;
 	padding: 0 2rem;
 }
@@ -267,19 +269,21 @@ label.logo a {
 
 .explainer-title {
 	font-weight: 700;
+	padding: 1rem 0;
 }
 
 @media (max-width: 1000px) {
 	.cards {
 		display: flex;
 		align-items: center;
-
 		flex-direction: column;
 	}
+
 	.card {
 		margin: 1em 0;
 		width: 50%;
 	}
+
 	.cards img {
 		width: 75px;
 	}
@@ -299,7 +303,7 @@ label.logo a {
 	margin: 1rem;
 }
 
-.details--grid {
+.details-grid {
 	display: grid;
 	align-items: center;
 	grid-template-columns: 1fr 1fr;
@@ -313,17 +317,6 @@ label.logo a {
 	align-items: stretch;
 	width: 100%;
 	margin: 2em 0;
-}
-
-@media (max-width: 1000px) {
-	.price-comparison {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-	.price-column {
-		margin: 3em;
-	}
 }
 
 .price-column {
@@ -362,7 +355,6 @@ label.logo a {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	font-family: var(--heading-font-family);
 	font-weight: bold;
 }
 
@@ -452,6 +444,18 @@ label.logo a {
 .cta:hover,
 .cta:focus {
 	transform: scale(1.1);
+}
+
+@media (max-width: 1000px) {
+	.price-comparison {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.price-column {
+		margin: 3em;
+	}
 }
 
 /* * Form */
@@ -580,6 +584,7 @@ textarea {
 	.about {
 		padding: 0 2em;
 	}
+
 	.about-values li {
 		text-align: center;
 	}
@@ -617,13 +622,16 @@ textarea {
 		display: initial;
 		margin: 2em 0;
 	}
+
 	.services-section p,
 	.services-section h2 {
 		margin: 1em;
 	}
+
 	.services-img {
 		display: none;
 	}
+
 	.services-button {
 		margin: 3em;
 	}
