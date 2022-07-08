@@ -1,3 +1,32 @@
+:root {
+	--light-background: white;
+	--light-text: black;
+	--light-button: blue;
+	--dark-background: #121212;
+	--dark-text: white;
+	--dark-button: #3700b3;
+}
+
+/* For Future Implementation */
+
+/* @media (prefers-color-scheme: light) {
+	:root {
+		--text-color: var(--light-text)
+		--page-background-color: var(--light-background)
+		--button-color: var(--light-button)
+	}
+	
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--text-color: var(--dark-text);
+		--page-background-color: var(--dark-background)
+		--button-color: var(--dark-button)
+	}
+	
+} */
+
 * {
 	padding: 0;
 	margin: 0;
@@ -6,12 +35,6 @@
 	font-family: "Poppins", sans-serif;
 	left: 0;
 }
-/* 
-@media (max-width: 1000px) {
-	body {
-		padding: 0 2em;
-	}
-} */
 
 /* *General */
 
