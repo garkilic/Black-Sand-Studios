@@ -158,13 +158,13 @@ label.logo a {
 	display: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 950px) {
 	label.logo {
 		display: none;
 	}
 }
 
-@media (max-width: 1101px) {
+@media (max-width: 950px) {
 	.nav {
 		margin: 0;
 		padding: 0;
